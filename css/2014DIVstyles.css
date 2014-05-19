@@ -230,6 +230,7 @@ border-top: thin solid #ffeecc;
   
 .block {
 	width: 100%;
+	min-height: 100%;
 	background-color: #ffeecc;
 	padding: 1em;
   background: url(../images/2014DIV_PhotoBG.jpg) no-repeat center center fixed; 
