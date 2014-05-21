@@ -159,6 +159,15 @@ ul {
   min-height: 225px;
   }
 
+.footer-logos{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	align-content: space-around;
+	align-items: center;
+}
+
 .footer-bottom{
   background-image: url(../images/2014DIV_FTBase.jpg);
   border-top: thin solid #bf6045;
@@ -184,16 +193,12 @@ border-top: thin solid #ffeecc;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-align: center;
-	-webkit-align-items: center;
-	-moz-box-align: center;
-	-ms-flex-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	-webkit-justify-content: center;
-	-moz-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
+	flex-grow:0;
+	flex-shrink:1;
+	flex-basis: auto;
+	align-self: auto;
+	min-width: 0;
+	min-height: auto;
 	margin: 1em 0;
     }
 
@@ -205,9 +210,8 @@ border-top: thin solid #ffeecc;
      }
      
 .primary {
-  width: 100%;
-  padding-top: .5em;
-  background: #39C;
+  padding: 2em;
+  background-color: #d5c5a5;
   }
 
 .secondary {

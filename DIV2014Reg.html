@@ -24,6 +24,7 @@
 
 
 <!-- header and nav section -->
+<!-- header and nav section -->
 <div class="header">
 	<div class="row">
 		<div class="large-5 medium-6 small-12 columns">
@@ -34,9 +35,10 @@
 				<ul class="button-group">
 		        <li><a href="DIV2014Info.html" class="button">Info</a></li>
 		        <li><a href="DIV2014Reg.html" class="button">Reg.</a></li>
-		        <li><a href="http://eepurl.com/BzXWn" target="_blank" class="button">Contact</a></li>
+		        <li><a href="#" data-reveal-id="myModal" title="Everybody loves to get email from Dubs In The Valley. Click the link, sign up, sit back and wait." class="button">Contact</a></li>
 		        </ul>
 			</div>
+			
 			<div class="row hide-for-small">
 				<h1 class="headline white hide-for-small">The best little car show you’ve never heard of.</h1>
 			</div>
@@ -52,13 +54,38 @@
 					<ul class="button-group">
 			        <li><a href="DIV2014Info.html" class="button">Info</a></li>
 			        <li><a href="DIV2014Reg.html" class="button">Reg.</a></li>
-			        <li><a href="http://eepurl.com/BzXWn" target="_blank" class="button">Contact</a></li>
+			        <li><a href="#" data-reveal-id="myModal" title="Everybody loves to get email from Dubs In The Valley. Click the link, sign up, sit back and wait." class="button">Contact</a></li>
 			        </ul>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+			
+<!-- modal dropdown awesomness -->
+<div id="myModal" class="reveal-modal primary" data-reveal>
+	<h2>email signup</h2>
+	<p>Wanna get the most recent updates as soon as they’re available? Wanna be alerted the second registration opens? Just want to have somebody send you an email so that you don't feel like nobody loves you? Well then, sign yourself up for our email alerts.</p>
+					
+	<form action="http://dubsinthevalley.us7.list-manage.com/subscribe/post" method="POST">
+	<input type="hidden" name="u" value="8083ce4d11e7f3f2602b638b6">
+	<input type="hidden" name="id" value="4f1c8e4591">
+	  <div class="row">
+	    <div class="large-12 medium-12 small-12 columns">
+			<input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" maxlength="50" value="email" onfocus="this.value=''"/>
+	    </div>
+		<div class="large-12 medium-12 small-12 columns"><input type="text" name="MERGE1" id="MERGE1" size="25" maxlength="50" value="First Name" onfocus="this.value=''"/></div>
+		<div class="large-12 medium-12 small-12 columns"><input type="text" name="MERGE2" id="MERGE2" size="25" maxlength="50" value="Last Name" onfocus="this.value=''"/></div>
+		<div class="columns"><input type="submit" class="button" name="submit" value="Subscribe to list"></div>
+	  </div>
+	</form>				
+					
+	<h3><a href="https://www.facebook.com/dubsin.thevalley" title="Emails are cool and all, but facebook is where it's at" target="_blank">Or, hit us up on the book of faces</a></h3>
+					
+	<a class="close-reveal-modal">&#215;</a>
+</div>
+<!-- end awesome modal -->
+
 <!-- close header & nav -->
 
 <div class="block"><!-- wrap the main content -->
@@ -67,7 +94,7 @@
 <div class="row columns">
 
 	<div class="row bttm-border">
-		<div class="large-6 small-12 columns">
+		<div class="large-6 medium-6 small-12 columns">
 			<h3>Pre-Registration is officially OPEN!!!</h3>
 			<p>Day of registration will be available for $25 but <b>WILL NOT</b> include a show shirt. Shirts will, however, be available for purchase for an additional $15 but will only be available on a first come, first serve basis. And quantities are limited. So get there early is you slacked on pre-reg and want a shirt.</p>
 
@@ -76,11 +103,11 @@
 			<p>In an effort to help expedite the check-in process, please make sure to print a copy of your registration receipt and bring it with you the day of the show.</p>
 		</div>
 
-		<div class="large-6 small-12 columns">
+		<div class="large-6 medium-6 small-12 columns">
 			<h3>Show Field & Exhibition Classes</h3>
 			<p>So as <acronym title="dubs in the valley">DIV</acronym> continues to grow, we have decided to bring back the exhibition class. This class is open to all makes/models/vehicles. Basically, if it has a motor in it, it's welcome. So if you want to show your ride but it's not a VW or Audi, don't worry, go right ahead and register for the Exhibition Class and we'll get ya taken care of.</p>
 
-			<p>We're always trying to come up with new ways to help improve the show and everyone's experience, so this year we'er doing something new for the Show Field, we're doing away with individual classes. So if you're in a VW or an Audi, just register for "Show Registration" and you'll be in the main show field. </p>
+			<p>We're always trying to come up with new ways to help improve the show and everyone's experience, so this year we're doing something new for the Show Field, we're doing away with individual classes. So if you're in a VW or an Audi, just register for "Show Registration" and you'll be in the main show field. </p>
 		</div>
 	</div>
 	
@@ -93,32 +120,64 @@
 		<div class="large-6 medium-6 small-12 columns">
 			<h3>Get Registered</h3>
 
-			<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 			<input type="hidden" name="cmd" value="_s-xclick">
-			<input type="hidden" name="hosted_button_id" value="BSCNVJDTXTC7L">
-			<table>
-			<tr><td><input type="hidden" name="on0" value="Pick your shirt size">Pick your shirt size</td></tr><tr><td><select name="os0">
-				<option value="&gt;">&gt; </option>
-				<option value="Men's Small">Men's Small </option>
-				<option value="Men's Medium">Men's Medium </option>
-				<option value="Men's Large">Men's Large </option>
-				<option value="Men's XL">Men's XL </option>
-				<option value="Men's 2XL">Men's 2XL </option>
-				<option value="Women's Small">Women's Small </option>
-				<option value="Women's Medium">Women's Medium </option>
-				<option value="Women's Large">Women's Large </option>
-				<option value="Women's XL">Women's XL </option>
-			</select> </td></tr>
-			<tr><td><input type="hidden" name="on1" value="Show/Exhibition">Show/Exhibition</td></tr><tr><td><select name="os1">
-				<option value="Show Registration">Show Registration </option>
-				<option value="Exhibition Registration">Exhibition Registration </option>
-			</select> </td></tr>
-			<tr><td><input type="hidden" name="on2" value="Name">Name</td></tr><tr><td><input type="text" name="os2" maxlength="200"></td></tr>
-			<tr><td><input type="hidden" name="on3" value="eMail Address">eMail Address</td></tr><tr><td><input type="text" name="os3" maxlength="200"></td></tr>
-			</table>
-			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-			</form>	
+			<input type="hidden" name="hosted_button_id" value="LLMV8R8HCGGKC">
+			
+			<div class="row">
+				<div class="large-6 medium-6 small-12 columns">
+					<input type="hidden" name="on0" value="Pick your shirt size">
+					<label for="on0">Pick your shirt size</label>
+					<select name="os0">
+						<option value="Men's Small">Men's Small </option>
+						<option value="Men's Medium">Men's Medium </option>
+						<option value="Men's Large">Men's Large </option>
+						<option value="Men's XL">Men's XL </option>
+						<option value="Men's 2XL">Men's 2XL </option>
+						<option value="Women's Small">Women's Small </option>
+						<option value="Women's Medium">Women's Medium </option>
+						<option value="Women's Large">Women's Large </option>
+						<option value="Women's XL">Women's XL </option>
+					</select>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="large-6 medium-6 small-12 columns">
+					<input type="hidden" name="on1" value="Show/Exhibition">
+					<label for="on1">Show/Exhibition</label>
+					<select name="os1">
+						<option value="Show Registration">Show Registration </option>
+						<option value="Exhibition Registration">Exhibition Registration </option>
+					</select>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="large-6 medium-6 small-12 columns">
+					<input type="hidden" name="on2" value="Name">
+					<label for="on2">Name</label>
+					<input type="text" name="os2" maxlength="200">
+				</div>
+			</div>
+			
+			
+			<div class="row">
+				<div class="large-6 medium-6 small-12 columns">
+					<input type="hidden" name="on3" value="eMail Address">
+					<label for="on3">eMail Address</label>
+					<input type="text" name="os3" maxlength="200">
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="large-6 medium-6 small-12 columns">
+					<input type="submit" class="button" name="submit" title="PayPal - The safer, easier way to pay online!" value="Pay With PayPal">
+				</div>
+			</div>
+			
+			</form>
+
 		</div>
 	</div>
 	
@@ -138,24 +197,26 @@
 
 	<div class="flex-container">
 		<div class="row">
-			<div class="large-2 small-4 columns icon">
-				<a href="#"><img src="images/BensVeeDub.png" /></a>
+			<div class="large-4 medium-4 small-4 columns icon">
+				<a href="http://www.bensveedubshop.com" target="_blank"><img src="images/BensVeeDub.png" /></a>
 			</div>
 			
-			<div class="large-2 small-4 columns icon">
-				<a href="#"><img src="images/LBR.png" /></a>
+			<div class="large-4 medium-4 small-4 columns icon">
+				<a href="http://www.longballrally.com" target="_blank"><img src="images/LBR.png" /></a>
 			</div>
 			
-			<div class="large-2 small-4 columns icon">
-				<a href="#"><img src="images/LowerValues.png" /></a>
+			<div class="large-4 medium-4 small-4 columns icon">
+				<a href="http://lowered-values.myshopify.com" target="_blank"><img src="images/LowerValues.png" /></a>
 			</div>	
-				
-			<div class="large-3 small-6 columns icon">
-				<a href="#"><img src="images/FurtherPeformance.png" /></a>
+		</div>
+		
+		<div class="row">				
+			<div class="large-6 medium-6 small-6 columns icon">
+				<a href="http://www.fptuned.com" target="_blank"><img src="images/FurtherPeformance.png" /></a>
 			</div>
 			
-			<div class="large-3 small-6 columns icon">
-				<a href="#"><img src="images/EPGLogo.png" /></a>
+			<div class="large-6 medium-6 small-6 columns icon">
+				<a href="http://epgtuned.com" target="_blank"><img src="images/EPGLogo.png" /></a>
 			</div>	
 		</div>
 	</div>
